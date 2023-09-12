@@ -1,24 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LeftService = () => {
   return (
     <div>
-      <div class="sideBar d-flex flex-column gap-2 justify-content-start">
-        <a class="active" href="theStudio">
-          <i class="fa fa-angle-right"></i> Services
-        </a>
-        <a href="/audio">
-          <i class="fa fa-angle-right"></i> Audio
-        </a>
-        <a href="/visual">
-          <i class="fa fa-angle-right"></i> Visual
-        </a>
-        <a href="/digital">
-          <i class="fa fa-angle-right"></i> Digital
-        </a>
-        <a href="/promotional">
-          <i class="fa fa-angle-right"></i> Promotional
-        </a>
+      <div className="sideBar d-flex flex-column gap-2 justify-content-start">
+        <Link className="active" to="/service">
+          <i className="fa fa-angle-right"></i> Services
+        </Link>
+        <Link to="/audio">
+          <i className="fa fa-angle-right"></i> Audio
+        </Link>
+        <Link to="/visual">
+          <i className="fa fa-angle-right"></i> Visual
+        </Link>
+        <Link to="/digital">
+          <i className="fa fa-angle-right"></i> Digital
+        </Link>
+        <Link to="/promotional">
+          <i className="fa fa-angle-right"></i> Promotional
+        </Link>
       </div>
     </div>
   );

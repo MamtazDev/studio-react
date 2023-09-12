@@ -5,8 +5,8 @@ const Blog = () => {
     <div>
       <main>
         <section>
-          <div class="container">
-            <div class="blogHeader mb-4">
+          <div className="container">
+            <div className="blogHeader mb-4">
               <h1>
                 The <strong>Blog</strong>
               </h1>
@@ -14,17 +14,17 @@ const Blog = () => {
           </div>
         </section>
         <section>
-          <div class="container mb_60">
+          <div className="container mb_60">
             <form
               action=""
-              class=" d-flex justify-content-between align-items-center blogForm"
+              className=" d-flex justify-content-between align-items-center blogForm"
             >
               <input
                 type="text"
-                class="form-control w-100 d-inline"
+                className="form-control w-100 d-inline"
                 placeholder="Search our blog"
               />
-              <button type="submit" class="btn btn-dark d-inline" value="">
+              <button type="submit" className="btn btn-dark d-inline" value="">
                 SEARCH
               </button>
             </form>
@@ -32,26 +32,25 @@ const Blog = () => {
         </section>
 
         <section>
-          <div class="container">
-            <div class="blogInner">
-              <div class="mb-4">
-                <h2 class="mb-2">
+          <div className="container">
+            <div className="blogInner">
+              <div className="mb-4">
+                <h2 className="mb-2">
                   <a href="#">Technology and the Audio Engineer: Part I</a>
                 </h2>
 
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i> audio production
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i> audio production
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i> audio engineering
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i> audio engineering
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i> audio technology
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i> audio technology
                 </a>
 
-                <span class="label">12/29/2015</span>
+                <span className="label">12/29/2015</span>
               </div>
-
               {/* <!-- blog short preview --> */}
               <p>
                 Audio engineering is an art form that is typically appreciated
@@ -64,38 +63,37 @@ const Blog = () => {
                 known by those outside the music industry, the impact they have
                 had on music production throughout the decades is immeasurable.
               </p>
-
               {/* <!-- read more button --> */}
-              <div class="mt-5 readBtn">
-                <a href="#" class="btn btn-xs">
-                  <i class="fa fa-sign-out"></i> READ MORE
+              <div className="mt-5 readBtn">
+                <a href="#" className="btn btn-xs">
+                  <i className="fa fa-sign-out"></i> READ MORE
                 </a>
               </div>
             </div>
 
-            <div class="blogInner">
-              <div class="mb-4">
-                <h2 class="mb-2">
+            <div className="blogInner">
+              <div className="mb-4">
+                <h2 className="mb-2">
                   <a href="#">
                     Chicago rapper King Louie recovering after being shot in the
                     head
                   </a>
                 </h2>
 
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i>CHICAGO
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i>CHICAGO
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i>HIP-HOP
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i>HIP-HOP
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i>GUN
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i>GUN
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i>VIOLENCE
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i>VIOLENCE
                 </a>
 
-                <span class="label">12/29/2015</span>
+                <span className="label">12/29/2015</span>
               </div>
 
               {/* <!-- blog short preview --> */}
@@ -108,26 +106,26 @@ const Blog = () => {
               </p>
 
               {/* <!-- read more button --> */}
-              <div class="mt-5 readBtn">
-                <a href="#" class="btn btn-xs">
-                  <i class="fa fa-sign-out"></i> READ MORE
+              <div className="mt-5 readBtn">
+                <a href="#" className="btn btn-xs">
+                  <i className="fa fa-sign-out"></i> READ MORE
                 </a>
               </div>
             </div>
 
-            <div class="blogInner">
-              <div class="mb-4">
-                <h2 class="mb-2">
+            <div className="blogInner">
+              <div className="mb-4">
+                <h2 className="mb-2">
                   <a href="#">4835 Studio website is now live!</a>
                 </h2>
 
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i>STUDIO
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i>STUDIO
                 </a>
-                <a href="#" class="label">
-                  <i class="fa fa-dot-circle-o"></i> NEW SITE LAUNCH CHICAGO
+                <a href="#" className="label">
+                  <i className="fa fa-dot-circle-o"></i> NEW SITE LAUNCH CHICAGO
                 </a>
-                <span class="label">12/29/2015</span>
+                <span className="label">12/29/2015</span>
               </div>
 
               {/* <!-- blog short preview --> */}
@@ -141,29 +139,29 @@ const Blog = () => {
               </p>
 
               {/* <!-- read more button --> */}
-              <div class="mt-5 readBtn">
-                <a href="#" class="btn btn-xs">
-                  <i class="fa fa-sign-out"></i> READ MORE
+              <div className="mt-5 readBtn">
+                <a href="#" className="btn btn-xs">
+                  <i className="fa fa-sign-out"></i> READ MORE
                 </a>
               </div>
             </div>
 
             {/* <!-- PAGINATION --> */}
-            <div class="d-flex justify-content-center mb_60">
+            <div className="d-flex justify-content-center mb_60">
               <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link active" href="#">
+                <ul className="pagination">
+                  <li className="page-item">
+                    <a className="page-link active" href="#">
                       1
                     </a>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">
+                  <li className="page-item">
+                    <a className="page-link" href="#">
                       2
                     </a>
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">
+                  <li className="page-item">
+                    <a className="page-link" href="#">
                       3
                     </a>
                   </li>

@@ -3,40 +3,41 @@ import service1 from "../../../asset/service1.jpg";
 import service2 from "../../../asset/service2.jpg";
 import service3 from "../../../asset/service3.jpg";
 import theStudioBanner from "../../../asset/theStudioBanner.png";
-
+import { Link } from "react-router-dom";
 const TheStudio = () => {
   return (
     <div>
       <main>
         <section>
-          <div class="container">
+          <div className="container">
             <div
-              class="pageBg"
+              className="pageBg"
               style={{ backgroundImage: `url('${theStudioBanner}')` }}
             >
-              <h1 class="pageHeader">
+              <h1 className="pageHeader">
                 The <span>Studio</span>
               </h1>
             </div>
           </div>
         </section>
         <section>
-          <div class="container">
-            <div class="row mb_60 gy-5">
-              <div class="col-md-3">
-                <div class="sideBar d-flex flex-column gap-2 justify-content-start">
-                  <a class="active" href="/theStudio">
-                    <i class="fa fa-angle-right"></i> The Studio
-                  </a>
-                  <a href="/team">
-                    <i class="fa fa-angle-right"></i> Team
-                  </a>
+          <div className="container">
+            <div className="row mb_60 gy-5">
+              <div className="col-md-3">
+                <div className="sideBar d-flex flex-column gap-2 justify-content-start">
+                  <Link className="active" to="/theStudio">
+                    <i className="fa fa-angle-right"></i> The Studio
+                  </Link>
+                  <Link to="/team">
+                    <i className="fa fa-angle-right"></i> Team
+                  </Link>
                 </div>
+       
               </div>
 
-              <div class="col-md-9">
+              <div className="col-md-9">
                 <div>
-                  <div class="d-flex flex-column gap-4">
+                  <div className="d-flex flex-column gap-4">
                     <h3>
                       Why you should chose 4835<strong>Studios</strong>?
                     </h3>
@@ -46,7 +47,7 @@ const TheStudio = () => {
                       video-based art. At 4835<strong>Studios</strong>
                       you can produce audio, visual and digital media projects.
                     </p>
-                    <ul class="serviceList">
+                    <ul className="serviceList">
                       <li>
                         Most affordable! Recording for only{" "}
                         <strong>
@@ -62,16 +63,16 @@ const TheStudio = () => {
                   </div>
                 </div>
 
-                <div class="divider half-margins">{/* <!-- divider --> */}</div>
-                <div class="d-flex flex-column gap-4">
+                <div className="divider half-margins">{/* <!-- divider --> */}</div>
+                <div className="d-flex flex-column gap-4">
                   <h3>
                     We've <strong>offer...</strong>
                   </h3>
-                  <div class="row gy-3">
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-music"></i>
+                  <div className="row gy-3">
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-music"></i>
                         </div>
                         <h4>Audio Services</h4>
                       </div>
@@ -80,10 +81,10 @@ const TheStudio = () => {
                         from music to PSAs.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-video-camera"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-video-camera"></i>
                         </div>
                         <h4>Visual Services</h4>
                       </div>
@@ -92,10 +93,10 @@ const TheStudio = () => {
                         guaranteed to excite your audience.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-cloud-upload"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-cloud-upload"></i>
                         </div>
                         <h4>Digital Media Services</h4>
                       </div>
@@ -104,10 +105,10 @@ const TheStudio = () => {
                         further their brand for optimal reach.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-check"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-check"></i>
                         </div>
                         <h4>State-Of-The-Art Gear</h4>
                       </div>
@@ -116,10 +117,10 @@ const TheStudio = () => {
                         and video equipment.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-map-marker"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-map-marker"></i>
                         </div>
                         <h4>A Great Location</h4>
                       </div>
@@ -128,10 +129,10 @@ const TheStudio = () => {
                         northwest side. We offer sufficient parking.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-building"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-building"></i>
                         </div>
                         <h4>
                           A 4000 ft<sup>2</sup> Facility
@@ -142,10 +143,10 @@ const TheStudio = () => {
                         deliver an incredible artist experience.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-bed"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-bed"></i>
                         </div>
                         <h4>Extended Stay Packages</h4>
                       </div>
@@ -154,10 +155,10 @@ const TheStudio = () => {
                         entire facility for a week or more.
                       </p>
                     </div>
-                    <div class="col-md-6">
-                      <div class="d-flex justify-content-start gap-2 align-items-center mb-3">
-                        <div class="serviceIcon d-flex justify-content-center align-items-center">
-                          <i class="fa fa-gamepad"></i>
+                    <div className="col-md-6">
+                      <div className="d-flex justify-content-start gap-2 align-items-center mb-3">
+                        <div className="serviceIcon d-flex justify-content-center align-items-center">
+                          <i className="fa fa-gamepad"></i>
                         </div>
                         <h4>Accomodations</h4>
                       </div>
@@ -168,22 +169,22 @@ const TheStudio = () => {
                     </div>
                   </div>
                 </div>
-                <div class="divider half-margins">{/* <!-- divider --> */}</div>
-                <div class="d-flex flex-column gap-4">
-                  <p class="lead">
+                <div className="divider half-margins">{/* <!-- divider --> */}</div>
+                <div className="d-flex flex-column gap-4">
+                  <p className="lead">
                     We strive to provide a safe and comfortable facility to
                     produce your art.
                   </p>
-                  <div class="row">
-                    <div class="col-12 col-md-6">
-                      <h4 class="mb-3">
+                  <div className="row">
+                    <div className="col-12 col-md-6">
+                      <h4 className="mb-3">
                         <strong>
                           4835<span style={{ color: "#F07057" }}>Studios</span>
                         </strong>{" "}
                         amenities includes:
                       </h4>
 
-                      <ul class="serviceList">
+                      <ul className="serviceList">
                         <li>Conference Rooms</li>
                         <li>Private Rest Area</li>
                         <li>High-speed Internet</li>
@@ -198,31 +199,31 @@ const TheStudio = () => {
                         <li>Washer &amp; Dryer</li>
                       </ul>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div className="col-12 col-md-6">
                       <div
                         id="carouselExampleSlidesOnly"
-                        class="carousel slide studioImg"
+                        className="carousel slide studioImg"
                         data-bs-ride="carousel"
                       >
-                        <div class="carousel-inner ">
-                          <div class="carousel-item active">
+                        <div className="carousel-inner ">
+                          <div className="carousel-item active">
                             <img
                               src={service1}
-                              class="d-block img-fluid w-100"
+                              className="d-block img-fluid w-100"
                               alt="Image Service"
                             />
                           </div>
-                          <div class="carousel-item">
+                          <div className="carousel-item">
                             <img
                               src={service2}
-                              class="d-block w-100 img-fluid"
+                              className="d-block w-100 img-fluid"
                               alt="Image Service"
                             />
                           </div>
-                          <div class="carousel-item">
+                          <div className="carousel-item">
                             <img
                               src={service3}
-                              class="d-block w-100 img-fluid"
+                              className="d-block w-100 img-fluid"
                               alt="Image Service"
                             />
                           </div>

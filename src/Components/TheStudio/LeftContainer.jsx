@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const LeftContainer = () => {
+const LeftContainer = ({ team }) => {
   return (
     <div>
-      <div class="sideBar d-flex flex-column gap-2 justify-content-start">
-        <a href="/theStudio">
-          <i class="fa fa-angle-right"></i> The Studio
-        </a>
-        <a class="active" href="/team">
-          <i class="fa fa-angle-right"></i> Team
-        </a>
+      <div className="sideBar d-flex flex-column gap-2 justify-content-start">
+        <Link to="/theStudio">
+          <i className="fa fa-angle-right"></i> The Studio
+        </Link>
+        <Link className="active" to="/team">
+          <i className="fa fa-angle-right"></i> Team
+        </Link>
       </div>
     </div>
   );

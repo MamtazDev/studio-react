@@ -11,73 +11,73 @@ const Team = () => {
   return (
     <>
       <section>
-        <div class="container">
+        <div className="container">
           <div
-            class="pageBg"
+            className="pageBg"
             style={{ backgroundImage: `url('${theStudioBanner}')` }}
           >
-            <h1 class="pageHeader">
+            <h1 className="pageHeader">
               <span>Team</span>
             </h1>
           </div>
         </div>
       </section>
       <section>
-        <div class="container">
-          <div class="row mb_60 gy-5">
-            <div class="col-md-3">
-              <LeftContainer />
+        <div className="container">
+          <div className="row mb_60 gy-5">
+            <div className="col-md-3">
+              <LeftContainer active={{ team: "/team" }} />
             </div>
 
-            <div class="col-md-9">
-              <div class="mb-5 d-flex flex-column gap-2">
-                <h2 class="text-center">
+            <div className="col-md-9">
+              <div className="mb-5 d-flex flex-column gap-2">
+                <h2 className="text-center">
                   <strong>Top Brass </strong>
                 </h2>
-                <p class="decMaker text-center">The Decision Makers</p>
+                <p className="decMaker text-center">The Decision Makers</p>
               </div>
               <article>
-                <div class="d-flex flex-column flex-md-row justify-content-center gap-4 align-items-center">
-                  <div class="team">
-                    <img class="img-fluid" src={mike} alt="Mike Parker" />
-                    <div class="brassContent text-center d-flex flex-column gap-2">
-                      <h4 class="text-center">Mike Parker</h4>
-                      <p class="text-center">Founder, Operations Director</p>
+                <div className="d-flex flex-column flex-md-row justify-content-center gap-4 align-items-center">
+                  <div className="team">
+                    <img className="img-fluid" src={mike} alt="Mike Parker" />
+                    <div className="brassContent text-center d-flex flex-column gap-2">
+                      <h4 className="text-center">Mike Parker</h4>
+                      <p className="text-center">Founder, Operations Director</p>
                       <div>
                         <button
                           type="button"
-                          class="btn btnxs btn-dark"
+                          className="btn btnxs btn-dark"
                           data-bs-toggle="modal"
                           data-bs-target="#topbrass1"
                         >
                           Read More +
                         </button>
                         <div
-                          class="modal fade"
+                          className="modal fade"
                           id="topbrass1"
                           tabindex="-1"
                           aria-labelledby="exampleModalLabel"
                           aria-hidden="true"
                         >
-                          <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                              <div class="modal-header">
+                          <div className="modal-dialog modal-dialog-centered">
+                            <div className="modal-content">
+                              <div className="modal-header">
                                 <h1
-                                  class="modal-title fs-5"
+                                  className="modal-title fs-5"
                                   id="exampleModalLabel"
                                 ></h1>
                                 <button
                                   type="button"
-                                  class="btn-close"
+                                  className="btn-close"
                                   data-bs-dismiss="modal"
                                   aria-label="Close"
                                 ></button>
                               </div>
-                              <div class="modal-body">.............</div>
-                              <div class="modal-footer">
+                              <div className="modal-body">.............</div>
+                              <div className="modal-footer">
                                 <button
                                   type="button"
-                                  class="btn btn-secondary"
+                                  className="btn btn-secondary"
                                   data-bs-dismiss="modal"
                                 >
                                   Close
@@ -90,47 +90,47 @@ const Team = () => {
                     </div>
                   </div>
 
-                  <div class="team">
-                    <img class="img-fluid" src={rob} alt="Rob Washington" />
+                  <div className="team">
+                    <img className="img-fluid" src={rob} alt="Rob Washington" />
 
-                    <div class="brassContent text-center d-flex flex-column gap-2">
-                      <h4 class="text-center">Rob Washington</h4>
-                      <p class="text-center">Technology Director</p>
+                    <div className="brassContent text-center d-flex flex-column gap-2">
+                      <h4 className="text-center">Rob Washington</h4>
+                      <p className="text-center">Technology Director</p>
                       <div>
                         <button
                           type="button"
-                          class="btn btnxs btn-dark"
+                          className="btn btnxs btn-dark"
                           data-bs-toggle="modal"
                           data-bs-target="#topbrass2"
                         >
                           Read More +
                         </button>
                         <div
-                          class="modal fade"
+                          className="modal fade"
                           id="topbrass2"
                           tabindex="-1"
                           aria-labelledby="exampleModalLabel"
                           aria-hidden="true"
                         >
-                          <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                              <div class="modal-header">
+                          <div className="modal-dialog modal-dialog-centered">
+                            <div className="modal-content">
+                              <div className="modal-header">
                                 <h1
-                                  class="modal-title fs-5"
+                                  className="modal-title fs-5"
                                   id="exampleModalLabel"
                                 ></h1>
                                 <button
                                   type="button"
-                                  class="btn-close"
+                                  className="btn-close"
                                   data-bs-dismiss="modal"
                                   aria-label="Close"
                                 ></button>
                               </div>
-                              <div class="modal-body">.............</div>
-                              <div class="modal-footer">
+                              <div className="modal-body">.............</div>
+                              <div className="modal-footer">
                                 <button
                                   type="button"
-                                  class="btn btn-secondary"
+                                  className="btn btn-secondary"
                                   data-bs-dismiss="modal"
                                 >
                                   Close
@@ -144,57 +144,57 @@ const Team = () => {
                   </div>
                 </div>
 
-                <hr class="half-margins" />
+                <hr className="half-margins" />
 
-                <div class="row gy-3 mb_60">
-                  <div class="mb-5 d-flex flex-column gap-2">
-                    <h2 class="text-center">
+                <div className="row gy-3 mb_60">
+                  <div className="mb-5 d-flex flex-column gap-2">
+                    <h2 className="text-center">
                       <strong>Internship Bootcamp</strong>
                     </h2>
-                    <p class="decMaker text-center">Class of Summer 2016</p>
+                    <p className="decMaker text-center">className of Summer 2016</p>
                   </div>
 
-                  <div class="col-12 col-md-3">
-                    <div class="team mx-auto">
-                      <img class="img-fluid" src={shawna} alt="Shawna Binion" />
-                      <div class="brassContent text-center d-flex flex-column gap-2">
-                        <h4 class="text-center">Shawna Binion</h4>
-                        <p class="text-center">Creative Copywriter</p>
+                  <div className="col-12 col-md-3">
+                    <div className="team mx-auto">
+                      <img className="img-fluid" src={shawna} alt="Shawna Binion" />
+                      <div className="brassContent text-center d-flex flex-column gap-2">
+                        <h4 className="text-center">Shawna Binion</h4>
+                        <p className="text-center">Creative Copywriter</p>
                         <div>
                           <button
                             type="button"
-                            class="btn btnxs btn-dark"
+                            className="btn btnxs btn-dark"
                             data-bs-toggle="modal"
                             data-bs-target="#boot1"
                           >
                             Read More +
                           </button>
                           <div
-                            class="modal fade"
+                            className="modal fade"
                             id="boot1"
                             tabindex="-1"
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
                           >
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
+                            <div className="modal-dialog modal-dialog-centered">
+                              <div className="modal-content">
+                                <div className="modal-header">
                                   <h1
-                                    class="modal-title fs-5"
+                                    className="modal-title fs-5"
                                     id="exampleModalLabel"
                                   ></h1>
                                   <button
                                     type="button"
-                                    class="btn-close"
+                                    className="btn-close"
                                     data-bs-dismiss="modal"
                                     aria-label="Close"
                                   ></button>
                                 </div>
-                                <div class="modal-body">.............</div>
-                                <div class="modal-footer">
+                                <div className="modal-body">.............</div>
+                                <div className="modal-footer">
                                   <button
                                     type="button"
-                                    class="btn btn-secondary"
+                                    className="btn btn-secondary"
                                     data-bs-dismiss="modal"
                                   >
                                     Close
@@ -207,47 +207,47 @@ const Team = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-3">
-                    <div class="team mx-auto">
-                      <img class="img-fluid" src={anna} alt="Anna Safavi" />
-                      <div class="brassContent text-center d-flex flex-column gap-2">
-                        <h4 class="text-center">Anna Safavi</h4>
-                        <p class="text-center">Web Developer</p>
+                  <div className="col-12 col-md-3">
+                    <div className="team mx-auto">
+                      <img className="img-fluid" src={anna} alt="Anna Safavi" />
+                      <div className="brassContent text-center d-flex flex-column gap-2">
+                        <h4 className="text-center">Anna Safavi</h4>
+                        <p className="text-center">Web Developer</p>
                         <div>
                           <button
                             type="button"
-                            class="btn btnxs btn-dark"
+                            className="btn btnxs btn-dark"
                             data-bs-toggle="modal"
                             data-bs-target="#boot2"
                           >
                             Read More +
                           </button>
                           <div
-                            class="modal fade"
+                            className="modal fade"
                             id="boot2"
                             tabindex="-1"
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
                           >
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
+                            <div className="modal-dialog modal-dialog-centered">
+                              <div className="modal-content">
+                                <div className="modal-header">
                                   <h1
-                                    class="modal-title fs-5"
+                                    className="modal-title fs-5"
                                     id="exampleModalLabel"
                                   ></h1>
                                   <button
                                     type="button"
-                                    class="btn-close"
+                                    className="btn-close"
                                     data-bs-dismiss="modal"
                                     aria-label="Close"
                                   ></button>
                                 </div>
-                                <div class="modal-body">.............</div>
-                                <div class="modal-footer">
+                                <div className="modal-body">.............</div>
+                                <div className="modal-footer">
                                   <button
                                     type="button"
-                                    class="btn btn-secondary"
+                                    className="btn btn-secondary"
                                     data-bs-dismiss="modal"
                                   >
                                     Close
@@ -261,52 +261,52 @@ const Team = () => {
                     </div>
                   </div>
 
-                  <div class="col-12 col-md-3">
-                    <div class="team mx-auto">
+                  <div className="col-12 col-md-3">
+                    <div className="team mx-auto">
                       <img
-                        class="img-fluid"
+                        className="img-fluid"
                         src={charia}
                         alt="Charia McDonald"
                       />
 
-                      <div class="brassContent text-center d-flex flex-column gap-2">
-                        <h4 class="text-center">Charia McDonald</h4>
-                        <p class="text-center">Video Editor</p>
+                      <div className="brassContent text-center d-flex flex-column gap-2">
+                        <h4 className="text-center">Charia McDonald</h4>
+                        <p className="text-center">Video Editor</p>
                         <div>
                           <button
                             type="button"
-                            class="btn btnxs btn-dark"
+                            className="btn btnxs btn-dark"
                             data-bs-toggle="modal"
                             data-bs-target="#boot3"
                           >
                             Read More +
                           </button>
                           <div
-                            class="modal fade"
+                            className="modal fade"
                             id="boot3"
                             tabindex="-1"
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
                           >
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
+                            <div className="modal-dialog modal-dialog-centered">
+                              <div className="modal-content">
+                                <div className="modal-header">
                                   <h1
-                                    class="modal-title fs-5"
+                                    className="modal-title fs-5"
                                     id="exampleModalLabel"
                                   ></h1>
                                   <button
                                     type="button"
-                                    class="btn-close"
+                                    className="btn-close"
                                     data-bs-dismiss="modal"
                                     aria-label="Close"
                                   ></button>
                                 </div>
-                                <div class="modal-body">.............</div>
-                                <div class="modal-footer">
+                                <div className="modal-body">.............</div>
+                                <div className="modal-footer">
                                   <button
                                     type="button"
-                                    class="btn btn-secondary"
+                                    className="btn btn-secondary"
                                     data-bs-dismiss="modal"
                                   >
                                     Close
@@ -320,47 +320,47 @@ const Team = () => {
                     </div>
                   </div>
 
-                  <div class="col-12 col-md-3">
-                    <div class="team mx-auto">
-                      <img class="img-fluid" src={emily} alt="Emily Resch" />
-                      <div class="brassContent text-center d-flex flex-column gap-2">
-                        <h4 class="text-center">Emily Resch</h4>
-                        <p class="text-center">Graphic Designer</p>
+                  <div className="col-12 col-md-3">
+                    <div className="team mx-auto">
+                      <img className="img-fluid" src={emily} alt="Emily Resch" />
+                      <div className="brassContent text-center d-flex flex-column gap-2">
+                        <h4 className="text-center">Emily Resch</h4>
+                        <p className="text-center">Graphic Designer</p>
                         <div>
                           <button
                             type="button"
-                            class="btn btnxs btn-dark"
+                            className="btn btnxs btn-dark"
                             data-bs-toggle="modal"
                             data-bs-target="#boot4"
                           >
                             Read More +
                           </button>
                           <div
-                            class="modal fade"
+                            className="modal fade"
                             id="boot4"
                             tabindex="-1"
                             aria-labelledby="exampleModalLabel"
                             aria-hidden="true"
                           >
-                            <div class="modal-dialog modal-dialog-centered">
-                              <div class="modal-content">
-                                <div class="modal-header">
+                            <div className="modal-dialog modal-dialog-centered">
+                              <div className="modal-content">
+                                <div className="modal-header">
                                   <h1
-                                    class="modal-title fs-5"
+                                    className="modal-title fs-5"
                                     id="exampleModalLabel"
                                   ></h1>
                                   <button
                                     type="button"
-                                    class="btn-close"
+                                    className="btn-close"
                                     data-bs-dismiss="modal"
                                     aria-label="Close"
                                   ></button>
                                 </div>
-                                <div class="modal-body">.............</div>
-                                <div class="modal-footer">
+                                <div className="modal-body">.............</div>
+                                <div className="modal-footer">
                                   <button
                                     type="button"
-                                    class="btn btn-secondary"
+                                    className="btn btn-secondary"
                                     data-bs-dismiss="modal"
                                   >
                                     Close
@@ -376,11 +376,11 @@ const Team = () => {
                 </div>
 
                 {/* <!-- CALLOUT --> */}
-                <div class="bgCall">
-                  <div class="row gy-3 align-items-center">
-                    <div class="col-12 col-md-9">
+                <div className="bgCall">
+                  <div className="row gy-3 align-items-center">
+                    <div className="col-12 col-md-9">
                       {/* <!-- left text --> */}
-                      <h4 class="mb-2">
+                      <h4 className="mb-2">
                         Wanna join 4835<strong>Studios</strong>?
                       </h4>
                       <p>
@@ -390,9 +390,9 @@ const Team = () => {
                     </div>
                     {/* <!-- /left text --> */}
 
-                    <div class="col-12 col-md-3">
+                    <div className="col-12 col-md-3">
                       {/* <!-- right btn --> */}
-                      <a class="btn btn-dark introBtn" href="career.html">
+                      <a className="btn btn-dark introBtn" href="career.html">
                         Introduce Yourself!
                       </a>
                     </div>
