@@ -1,14 +1,15 @@
 import React from "react";
 import logo from "../../images/logo-4835studios.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
       <header>
         <nav className="navbar navbar-expand-lg p-0">
           <div className="container">
-            <a className="navbar-brand" href="/">
+            <Link className="navbar-brand" to="/">
               <img src={logo} alt="LOGO" />
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -26,116 +27,116 @@ const Navbar = () => {
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item dropdown p-0 m-0">
-                  <a
+                  <Link
                     className="nav-link active dropdown-toggle"
-                    href="/theStudio"
+                    to="/theStudio"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     The Studio
-                  </a>
+                  </Link>
                   <ul
                     className="dropdown-menu p-0 m-0"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="/theStudio">
+                      <Link className="dropdown-item" to="/theStudio">
                         The Studio
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/team">
+                      <Link className="dropdown-item" to="/team">
                         Team
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <Link
                     className="nav-link dropdown-toggle"
-                    href="/"
+                    to="/"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Services
-                  </a>
+                  </Link>
                   <ul
                     className="dropdown-menu p-0 m-0"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="/service">
+                      <Link className="dropdown-item" to="/service">
                         Services
-                      </a>
+                      </Link>
                     </li>
                     <li className="p-0 m-0">
                       <hr className="dropdown-divider m-0" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/audio">
+                      <Link className="dropdown-item" to="/audio">
                         Audio
-                      </a>
+                      </Link>
                     </li>
                     <li className="p-0 m-0">
                       <hr className="dropdown-divider m-0" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/visual">
+                      <Link className="dropdown-item" to="/visual">
                         Visual
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider m-0" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/digital">
+                      <Link className="dropdown-item" to="/digital">
                         Digital
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider m-0" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/promotional">
+                      <Link className="dropdown-item" to="/promotional">
                         Promotional
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/blog">
+                  <Link className="nav-link" to="/blog">
                     Blog
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item dropdown p-0 m-0">
-                  <a
+                  <Link
                     className="nav-link dropdown-toggle"
-                    href="/"
+                    to="/"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Contact
-                  </a>
+                  </Link>
                   <ul
                     className="dropdown-menu p-0 m-0"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="/contact">
+                      <Link className="dropdown-item" to="/contact">
                         Conatct
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/career">
+                      <Link className="dropdown-item" to="/career">
                         Careers
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>

@@ -156,7 +156,6 @@ const Visual = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="bgCall">
                   <div className="row gy-3 align-items-center">
                     <div className="col-12 col-md-9">
