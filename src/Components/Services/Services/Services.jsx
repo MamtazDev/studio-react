@@ -1,5 +1,6 @@
 import React from "react";
 import serviceBanner from "../../../asset/serviceBanner.png";
+import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Services = () => {
             <div className="row mb_60 gy-5">
               <div className="col-md-3">
                 <div className="sideBar d-flex flex-column gap-2 justify-content-start">
-                  <Link to="/service">
+                  <Link className="active" to="/service">
                     <i className="fa fa-angle-right"></i> Services
                   </Link>
                   <Link to="/audio">
@@ -33,7 +34,7 @@ const Services = () => {
                   <Link to="/digital">
                     <i className="fa fa-angle-right"></i> Digital
                   </Link>
-                  <Link to="/promotional" className="active">
+                  <Link to="/promotional">
                     <i className="fa fa-angle-right"></i> Promotional
                   </Link>
                 </div>
