@@ -17,6 +17,9 @@ import Digital from "./Components/Services/Digital/Digital.jsx";
 import Blog from "./Components/Blog/Blog.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Career from "./Components/Contact/Career.jsx";
+import TermsAndCondition from "./Components/TermsAndCondition/TermsAndCondition.jsx";
+import BlogDetails from "./Components/Blog/BlogDetails.jsx";
+import "../src/Components/Blog/blog.json"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,12 +62,23 @@ const router = createBrowserRouter([
         element: <Blog />,
       },
       {
+        path: "/blog/:blogId",
+        element: <BlogDetails />,
+        // loader:rootLoader,
+        // loader: ({ params }) =>
+        // fetch(`../src/Components/Blog/blog.json/${params}`),
+      },
+      {
         path: "/contact",
         element: <Contact />,
       },
       {
         path: "/career",
         element: <Career />,
+      },
+      {
+        path: "/termConditions",
+        element: <TermsAndCondition />,
       },
     ],
   },

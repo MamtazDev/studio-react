@@ -1,0 +1,29 @@
+ [
+    {
+      "id": 0,
+      "title": "Technology and the Audio Engineer: Part I",
+      "greyText": [
+        "audio production",
+        "audio engineering",
+        "audio technology",
+        "12/29/2015"
+      ],
+      "details":
+        "Audio engineering is an art form that is typically appreciated only by audiophiles and those who engineer or produce music for a living. Behind every engineer is the technology that helped create the sounds we hear. Ask the average person to name a recording engineer and they will most likely have no reply. Ask them to name any of the equipment used to make a recording and they will be equally dumbfounded. Although the names may not be  known by those outside the music industry, the impact they have had on music production throughout the decades is immeasurable."
+    },
+    {
+      "id": 1,
+      "title": "Chicago rapper King Louie recovering after being shot in the head",
+      "greyText": ["CHICAGO", "HIP-HOP", "GUN VIOLENCE", "12/29/2015"],
+      "details":
+        "King Louie, the Chicago rapper credited with coining the controversial nickname “Chiraq” in response to the city’s we spread gun violence, is “alive and recovering” after police say he was shot in the head on Wednesday in the city’s Ashburn neighborhood."
+    },
+    {
+      "id": 2,
+      "title": "4835 Studio website is now live!",
+      "greyText": ["STUDIO", "NEW SITE LAUNCH", "CHICAGO", "12/29/2015"],
+      "details":
+        "Audio engineering is an art form that is typically appreciated only by audiophiles and those who engineer or produce music for a living. Behind every engineer is the technology that helped create the sounds we hear. Ask the average person to name a recording engineer and they will most likely have no reply. Ask them to name any of the equipment used to make a recording and they will be equally dumbfounded. Although the names may not be  known by those outside the music industry, the impact they have had on music production throughout the decades is immeasurable."
+
+    }
+  ]

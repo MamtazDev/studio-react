@@ -190,8 +190,17 @@ footer {
 
 footer {
     border-top: rgba(255, 255, 255, 0.3) 1px solid;
-}
 
+}
+/* Apply these styles to your footer element */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  }
+  
 footer span,
 footer ul li a {
     color: #fff;
