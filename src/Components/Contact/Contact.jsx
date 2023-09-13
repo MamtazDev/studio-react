@@ -102,7 +102,7 @@ const Contact = () => {
                       <strong>
                         <i className="fa fa-envelope"></i>
                       </strong>
-                      <a className="text-danger" href="contact.html">
+                      <a className="text-danger" href="/contact">
                         info@4835studios.com
                       </a>
                     </p>

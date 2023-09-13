@@ -186,7 +186,7 @@ const Audio = () => {
 
                   <div className="col-12 col-md-3">
                     <div className="text-end">
-                      <Link className="btn btn-dark introBtn" to="contact.html">
+                      <Link className="btn btn-dark introBtn" to="/contact">
                         Let's Talk
                       </Link>
                     </div>

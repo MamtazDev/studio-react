@@ -169,7 +169,7 @@ const Digital = () => {
 
                     <div className="col-12 col-md-3">
                       <div className="text-end">
-                        <a className="btn btn-dark introBtn" href="contact.html">
+                        <a className="btn btn-dark introBtn" href="/contact">
                           Let's Talk
                         </a>
                       </div>

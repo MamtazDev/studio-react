@@ -392,7 +392,7 @@ const Team = () => {
 
                     <div className="col-12 col-md-3">
                       {/* <!-- right btn --> */}
-                      <a className="btn btn-dark introBtn" href="career.html">
+                      <a className="btn btn-dark introBtn" href="/career">
                         Introduce Yourself!
                       </a>
                     </div>
