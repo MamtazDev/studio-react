@@ -3,6 +3,7 @@ import slide1 from  "../../asset/slide-1.jpg"
 import slide2 from  "../../asset/slide-2.jpg"
 import slide3 from  "../../asset/slide-3.jpg"
 const Banner = () => {
+  // lskdfkl;dsh
   return (
     <>
       <div
