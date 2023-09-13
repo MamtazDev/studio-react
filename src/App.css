@@ -609,7 +609,7 @@ hr.conditionMargin{
 }
 
 .blogInner {
-    background: url("../assets/download.png") no-repeat bottom center;
+    background: url("../src/asset/download.png") no-repeat bottom center;
     margin-bottom: 60px;
     padding-bottom: 80px;
 }
